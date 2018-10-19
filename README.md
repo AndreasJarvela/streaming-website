@@ -1,3 +1,6 @@
+## Course Project
+This project was created during an advanced web programming course(TDDD27) at Linköping University. The project was an attempt to "replicate" the functionality of one of the largest streaming services today www.twitch.tv.
+
 ## Functional Requirements
 
 This project provides a game live stream service accessible by everyone with a web browser.  With the use of 3rd party
@@ -7,9 +10,18 @@ recorded streams on their own page for users to watch later. The service works b
 is provided for users signed in, such as live chat and feed customization. Users will be able to follow other users and get notified
 when streamers are live.
 
+## Front/Back-end frameworks and libraries used
+Angular Cli<br />
+Bootstrap<br />
+<br />
+Node<br />
+Express<br />
+JsonWebToken<br />
+Node-Media-Server<br />
+
 ## Link to screencast
 https://www.youtube.com/watch?v=j3Pct64X0TU&feature=youtu.be
 
 ### Authors 
+Andreas Järvelä<br />
 Sebastian Lindmark
-Andreas Järvelä
