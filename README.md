@@ -13,9 +13,12 @@ when streamers are live.
 ## Front/Back-end frameworks and libraries used
 Angular Cli<br />
 Bootstrap<br />
+Sass<br />
+
 <br />
 Node<br />
 Express<br />
+Sequelize<br />
 JsonWebToken<br />
 Node-Media-Server<br />
 
