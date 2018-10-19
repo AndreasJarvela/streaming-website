@@ -1,0 +1,150 @@
+.background{
+    z-index: 1;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -50px;
+    height: 50px;
+}
+
+.subtitle-text{
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+}
+
+.no-stream-text{
+    font-size: 25px;
+}
+
+.title-text{
+    font-size: 18px;
+}
+
+.game-title-container {
+    font-size: 23px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-left: 8px;
+}
+
+@media (max-width: 992px) {
+    #game-title-img {
+        display: none;
+    }
+    
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.game_picture {
+    overflow: visible;
+    height: 200px;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    background-color: white;
+}
+
+.overflow{
+    overflow: visible;
+}
+
+.extra-margin{
+    margin-top: -150px;
+    margin-right:15px;
+}
+
+.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.directory-item {
+    width: 200px;
+    flex-grow: 999;
+}
+
+.directory-item>img {
+    border-radius: 0;
+    border: none;
+    padding: 0;
+}
+
+.img-thumbnail{
+    cursor: pointer;
+}
+
+
+#document-selection {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 80px;
+    background-color: white;
+    border: 1px solid #FFC3C3;
+    font-size: 18px;
+}
+
+.column-header {
+    margin-top: 15px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #FFC3C3;
+    margin-bottom: 15px;
+}
+
+.news-container {
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgba(211, 211, 211, 0.425);
+}
+
+.news {
+    font-size: 18px;
+    color: black;
+}
+
+.patch-title {
+    font-weight: bold;
+}
+
+.follower-game-title{
+    display: inline;
+}
+
+.viewer-count {
+    color: gray;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.live-circle-icon{
+    font-size:14px;
+    color:red;
+    margin-right: 3px;
+}
+
+.username{
+    color:firebrick;
+    display: inline;
+    cursor: pointer;
+}
+
+.username:hover{
+    text-decoration: underline;
+}

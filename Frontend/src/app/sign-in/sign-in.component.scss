@@ -1,0 +1,150 @@
+
+$light-color: #F63232;
+$main-color: #D90202;
+$dark-color: #A80000;
+
+#googleBtn {
+    font-family: Roboto;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
+.google-sign-in-container {
+    width: 200px !important;
+    height: 40px !important;
+    border-radius: 1px !important;
+    background-color: rgb(250, 250, 250) !important;
+    border: 1px solid rgb(230, 230, 230) !important;
+    padding: 0px 15px 0px 5px !important;
+    line-height: 40px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;   
+}
+
+.google-sign-in-container:hover {
+    background-color: rgb(253, 253, 253) !important;
+}
+
+.google-sign-in-container > img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    float: left;
+}
+
+.google-sign-in-container > p {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    float: right;
+}
+
+#googleBtn:hover{
+    background-color: lightblue;
+    box-shadow: 2px lightblue;
+}
+
+#sign-in-container {
+    max-width: 330px;
+    padding-bottom: 50px;
+    vertical-align: middle;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid #d3d3d3;
+    position: absolute;
+    z-index: 999999;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    top: 20%;
+}
+
+#close-button {
+    color: $main-color;
+    position: absolute;
+    right: 10px;
+    font-family: 'FontAwesome';
+    top: 0;
+    font-size: 24px;
+}
+
+#close-button:hover {
+    color: $light-color;
+}
+
+#close-button:active {
+    color: $main-color;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-tab-button{
+    font-size : 15px;
+    padding: 2px 4px 2px 4px;
+    margin-right : 5px;
+    cursor: pointer;
+}
+
+.custom-button {
+    border: none;
+    border-radius: 0px !important;
+    padding: 5px 20px 5px 20px !important;
+    width: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $main-color;
+    text-align: center;
+}
+
+.custom-input {
+    border-radius: 0px;
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+
+.custom-input:focus {
+    outline: none !important;
+    border:1px solid $main-color;
+    box-shadow: 0 0 1px $main-color;
+}
+
+.form-signin {
+    margin-top: 10px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover  { 
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: $main-color;
+    color: $main-color;
+}
+
+.nav-tabs>li>a {
+    color: $main-color;
+    border-radius: 0;    
+}
+
+.nav-tabs>li>a:hover {
+    background-color: transparent !important;
+    border-left-color: transparent !important;
+    border-top-color: transparent!important;
+    border-right-color: transparent !important;
+    border-bottom: 1px solid $light-color;
+}
+
+p {
+    font-weight: bold;
+    font-size: 12px;
+}

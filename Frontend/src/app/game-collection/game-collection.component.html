@@ -1,0 +1,105 @@
+<div class="main">
+    <div class="col-md-12 background">
+        <img class="profile-icon  embed-responsive" src="{{wide_image_url}}">        
+        
+        <div class="col-md-12 overlay embed-responsive overflow">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="game-title-container text-left"> {{name}} </div>
+            </div>
+            <div class="col-md-4">
+                <div class ="text-right extra-margin ">
+                  <img id="game-title-img"class="game_picture" src="{{image_url}}">
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    
+      
+
+      <div class="row">
+          <div class="col-md-6">
+            <div class="column-header">
+                <p>Live streams</p>
+              </div>
+                
+            
+            <div class="d-flex flex-wrap">
+                <div class="p-2 no-stream-text" *ngIf="noStreamsAvailable">No live streams for {{name}}</div>                 
+                  <div class="p-2 directory-item" *ngFor="let stream of liveStreams">
+                      <app-stream-thumbnail class="img-thumbnail" [mapPath]="stream.live_url" [loadGif]=false  routerLinkActive="active" routerLink="/channel/{{stream.User.username}}"></app-stream-thumbnail>  
+                    
+
+                    <!-- <img class="img-thumbnail" src="{{stream.Game.url}}" routerLinkActive="active" routerLink="/channel/{{stream.User.username}}">-->
+                      
+                      <div class="text-left title follower-game-title"><span class="fa fa-circle live-circle-icon"></span>{{stream.title}}</div>
+                      <div class="text-left viewer-count">
+                        {{stream.viewers}} viewers on 
+                        <p class="username" routerLinkActive="active" routerLink="/channel/{{stream.User.username}}">{{stream.User.username}}</p>
+                      </div> 
+                  </div>
+
+              
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+            </div> 
+          </div>
+          <div class="col-md-6">
+              <div class="column-header">
+                  <p>VODS</p>
+              </div>
+        
+              <div class="d-flex flex-wrap">
+                  <div class="p-2 no-stream-text" *ngIf="vods === null || vods.length == 0">No VODS for {{name}}</div>                 
+                  <div class="p-2 directory-item" *ngFor="let stream of vods">
+
+                      <app-stream-thumbnail [mapPath]="stream.root_path" [loadGif]=true></app-stream-thumbnail>
+                      <!--<img class="img-thumbnail" src="http://localhost:8000/{{stream.root_path}}/video.gif" routerLinkActive="active" routerLink="/channel/">-->
+                      
+                      <div class="text-left title follower-game-title">{{stream.title}}</div>
+                      <div class="text-left viewer-count">
+                        by 
+                       <p class="username" routerLinkActive="active" routerLink="/channel/{{stream.username}}">{{stream.username}}</p>
+                      </div> 
+                  </div>
+
+              
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+              <div class="p-2 directory-item"></div>
+            </div> 
+
+
+        </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+      
+</div>

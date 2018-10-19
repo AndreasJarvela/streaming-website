@@ -1,0 +1,79 @@
+:host {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#search-bar-container{
+    background-color: white;
+    color: lightgray;
+    height: 30px;
+}
+
+#custom-input {
+    display: block;
+    border-radius: 0;
+    border: none !important;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+
+#custom-input:focus {
+    box-shadow: none;
+}
+
+#icon-container {
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+
+.search-bar{
+    background-color: white !important;
+    font-family: Arial, FontAwesome;
+    
+    
+}
+
+
+ng-select /deep/ .ui-select-choices{
+    display: block;
+}
+
+ng-select /deep/ u.i-select-match{
+    width: 219px !important;
+}
+
+ng-select /deep/ .btn-secondary{
+    background-color: white !important;
+    border-color: white !important;
+    width: 219px !important;
+} 
+
+ng-select /deep/ .ui-select-match-text{
+    color:black;
+}
+
+ng-select /deep/ .form-control{
+    border: 0px solid #ced4da;
+    border-radius: 0rem;
+    box-shadow: none;
+    outline: none;
+}
+
+ng-select /deep/ .ui-select-choices{
+    border-radius: 0;
+}
+
+.search-bar:hover{
+    background-color: red !important;
+}
+

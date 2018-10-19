@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+$light-color: #9FDDE9;
+$main-color: #6CA6B1;
+$dark-color: #2A6D7A;
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+p {
+    margin: 0;
+    color: rgb(87, 82, 96);
+}
+
+// Sticky footer
+//--------------------------
+app-root {
+    display: block;
+    min-height: 100%;
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+
+

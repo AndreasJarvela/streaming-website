@@ -1,0 +1,10 @@
+<ng-select class="search-bar" [allowClear]="true"
+    [items]="items"
+    [disabled]="disabled"
+    [allowClear]="true"
+    (data)="refreshValue($event)"
+    (selected)="selected($event)"
+    (removed)="removed($event)"
+    (typed)="typed($event)"
+    placeholder="&#xF002; Search">
+</ng-select>
