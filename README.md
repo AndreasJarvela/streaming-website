@@ -22,9 +22,6 @@ Sequelize<br />
 JsonWebToken<br />
 Node-Media-Server<br />
 
-## Link to screencast
-https://www.youtube.com/watch?v=j3Pct64X0TU&feature=youtu.be
-
 ### Authors 
 Andreas Järvelä<br />
 Sebastian Lindmark
